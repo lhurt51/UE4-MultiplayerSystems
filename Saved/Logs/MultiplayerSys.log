@@ -1,0 +1,794 @@
+﻿Log file open, 07/21/17 20:55:21
+LogInit:Display: Running engine for game: MultiplayerSys
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(17391858) SRandInit(17391858).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.111320
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.22-03.55.22:548][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.22-03.55.22:548][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.22-03.55.22:640][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.07.22-03.55.22:640][  0]LogInit: User: Liam
+[2017.07.22-03.55.22:640][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.22-03.55.22:640][  0]LogInit: High frequency timer resolution =3.906388 MHz
+[2017.07.22-03.55.22:641][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.22-03.55.22:641][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.22-03.55.22:641][  0]LogMemory: Process Physical Memory: 273.73 MB used, 273.73 MB peak
+[2017.07.22-03.55.22:641][  0]LogMemory: Process Virtual Memory: 261.16 MB used, 261.16 MB peak
+[2017.07.22-03.55.22:641][  0]LogMemory: Physical Memory: 8984.23 MB used,  7346.77 MB free, 16331.00 MB total
+[2017.07.22-03.55.22:641][  0]LogMemory: Virtual Memory: 638.64 MB used,  7346.77 MB free, 134217728.00 MB total
+[2017.07.22-03.55.22:763][  0]LogInit: Using OS detected language (en-US).
+[2017.07.22-03.55.22:763][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.22-03.55.22:871][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.22-03.55.30:022][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.22-03.55.30:592][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.07.22-03.55.30:592][  0]LogD3D11RHI:       4063/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.22-03.55.30:594][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.22-03.55.30:594][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.22-03.55.30:594][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.22-03.55.30:600][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.22-03.55.30:600][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.22-03.55.30:600][  0]LogWindows: EnumDisplayDevices:
+[2017.07.22-03.55.30:600][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.07.22-03.55.30:601][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.22-03.55.30:601][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.22-03.55.30:601][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.22-03.55.30:601][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.22-03.55.30:601][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.07.22-03.55.30:601][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.22-03.55.30:601][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.22-03.55.30:601][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.22-03.55.31:118][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.22-03.55.31:187][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.22-03.55.31:190][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Intermediate/Shaders/WorkingDirectory/1564/).
+[2017.07.22-03.55.31:190][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/CB1D81CE4F9F344DC06D329157FD89CB/'.
+[2017.07.22-03.55.31:190][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.22-03.55.35:137][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.22-03.55.35:230][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.22-03.55.35:321][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.22-03.55.35:413][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.22-03.55.35:523][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.22-03.55.35:618][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.22-03.55.35:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.22-03.55.35:816][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.22-03.55.35:905][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.22-03.55.36:009][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.22-03.55.36:101][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.22-03.55.36:195][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.22-03.55.36:291][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.22-03.55.36:384][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.22-03.55.36:476][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.22-03.55.36:664][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.22-03.55.36:664][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.22-03.55.36:745][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.22-03.55.36:931][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.22-03.55.36:988][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.22-03.55.37:079][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.22-03.55.37:173][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.22-03.55.37:264][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.22-03.55.37:368][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.22-03.55.37:368][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.22-03.55.38:397][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache: Loaded boot cache 0.72s 90MB C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.22-03.55.39:120][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.22-03.55.39:142][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.22-03.55.39:154][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.22-03.55.39:173][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.22-03.55.39:173][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.22-03.55.39:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.22-03.55.39:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.22-03.55.40:557][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.22-03.55.40:671][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.22-03.55.40:947][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.22-03.55.41:032][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.22-03.55.41:132][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.22-03.55.41:132][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.22-03.55.41:132][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.22-03.55.42:122][  0]LogNetVersion: MultiplayerSys , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3795185886)
+[2017.07.22-03.55.42:212][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2017.07.22-03.55.42:340][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.076103 seconds
+[2017.07.22-03.55.42:346][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.22-03.55.42:346][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.22-03.55.42:346][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.22-03.55.42:485][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.22-03.56.01:765][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.22-03.56.01:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.22-03.56.03:145][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.22-03.56.03:886][  0]SourceControl: Info Source control is disabled
+[2017.07.22-03.56.03:940][  0]SourceControl: Info Source control is disabled
+[2017.07.22-03.56.04:037][  0]SourceControl: Info Source control is disabled
+[2017.07.22-03.56.04:130][  0]SourceControl: Info Source control is disabled
+[2017.07.22-03.56.05:621][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.22-03.56.06:773][  0]LogEngine: Initializing Engine...
+[2017.07.22-03.56.06:773][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.22-03.56.07:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.22-03.56.07:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.22-03.56.07:358][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.22-03.56.07:404][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.07.22-03.56.07:427][  0]LogInit: FAudioDevice initialized.
+[2017.07.22-03.56.07:506][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Liam/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.22-03.56.07:537][  0]LogInit: Texture streaming: Enabled
+[2017.07.22-03.56.07:747][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.22-03.56.08:371][  0]LogInit: Transaction tracking system initialized
+[2017.07.22-03.56.08:993][  0]BlueprintLog: New page: Editor Load
+[2017.07.22-03.56.10:878][  0]LocalizationService: Info Localization service is disabled
+[2017.07.22-03.56.12:299][  0]LogConsoleResponse:Display: 
+[2017.07.22-03.56.12:606][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.22-03.56.12:606][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.22-03.56.13:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/' took 0.04s
+[2017.07.22-03.56.14:779][  0]SourceControl: Info Source control is disabled
+[2017.07.22-03.56.14:779][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-03.56.14:799][  0]LightingResults: New page: Lighting Build
+[2017.07.22-03.56.14:878][  0]MapCheck: New page: Map Check
+[2017.07.22-03.56.14:878][  0]LightingResults: New page: Lighting Build
+[2017.07.22-03.56.17:246][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.07.22-03.56.17:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-03.56.17:706][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-03.56.17:786][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.669ms to complete.
+[2017.07.22-03.56.17:786][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.007
+[2017.07.22-03.56.17:866][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.22-03.56.18:551][  0]LogCollectionManager: Loaded 0 collections in 0.002943 seconds
+[2017.07.22-03.56.18:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Collections/' took 0.01s
+[2017.07.22-03.56.18:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Developers/Liam/Collections/' took 0.01s
+[2017.07.22-03.56.18:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Collections/' took 0.01s
+[2017.07.22-03.56.18:707][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.22-03.56.18:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2329 classes and 491 folders.
+[2017.07.22-03.56.18:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.07.22-03.56.20:199][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.22-03.56.20:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.22-03.56.20:727][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.22-03.56.20:834][  0]LogSlate: Took 0.009944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.22-03.56.20:848][  0]LogSlate: Took 0.011769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.22-03.56.20:932][  0]LogSlate: Took 0.019263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.22-03.56.21:540][  0]LogRenderer: Reallocating scene render targets to support 1164x600 NumSamples 1 (Frame:1).
+[2017.07.22-03.56.22:539][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.07.22-03.56.22:539][  0]LogLoad: (Engine Initialization) Total time: 64.29 seconds
+[2017.07.22-03.56.22:539][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.07.22-03.56.22:539][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.22-03.56.22:539][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.22-03.56.22:549][  0]LogOcInput: OculusInput pre-init called
+[2017.07.22-03.56.22:549][  0]LogHMD: Starting GearVRController plugin
+[2017.07.22-03.56.22:636][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.22-03.56.22:805][  0]LogSlate: Took 0.013866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.22-03.56.23:112][  2]LogAssetRegistry: Asset discovery search completed in 40.9217 seconds
+[2017.07.22-03.56.23:114][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.22-03.56.23:114][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.07.22-04.04.33:382][236]LogSlate: Took 0.013359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.22-04.06.14:230][882]LogSlate: Took 0.015812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.22-04.06.23:251][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.030
+[2017.07.22-04.06.23:291][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AllLevels/NewBlueprint] ([1] browsable assets)...
+[2017.07.22-04.06.23:291][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AllLevels/NewBlueprint]
+[2017.07.22-04.06.23:358][909]LogSavePackage: Save=46.29ms
+[2017.07.22-04.06.23:358][909]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/NewBlueprint_Auto12AA7A6C04ECEA2C65F839DA745F7FDCE.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/AllLevels/NewBlueprint_Auto1.uasset'
+[2017.07.22-04.06.23:359][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/AllLevels/NewBlueprint_Auto1.uasset
+[2017.07.22-04.06.23:359][909]LogFileHelpers: Auto-saving content packages took 0.107
+[2017.07.22-04.07.17:512][138]LogMetaData: Removing '/Game/Blueprints/AllLevels/GameInfoInstance.SKEL_GameInfoInstance_C' ref from Metadata '/Game/Blueprints/AllLevels/NewBlueprint.PackageMetaData'
+[2017.07.22-04.07.17:512][138]LogMetaData: Removing '/Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance_C' ref from Metadata '/Game/Blueprints/AllLevels/NewBlueprint.PackageMetaData'
+[2017.07.22-04.07.17:597][138]LogSavePackage: Save=15.30ms
+[2017.07.22-04.07.17:597][138]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/GameInfoInstanceD46FDFD644D5025DB5797E9A0754A34D.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/GameInfoInstance.uasset'
+[2017.07.22-04.07.17:608][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/GameInfoInstance.uasset
+[2017.07.22-04.09.25:192][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2017.07.22-04.09.25:214][944]LogSavePackage: Save=18.61ms
+[2017.07.22-04.09.25:214][944]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PlayerInfoE0F1D62349C26C179B804A8320D2D24C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2017.07.22-04.09.25:233][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/PlayerInfo.uasset
+[2017.07.22-04.09.25:247][944]LogSavePackage: Save=7.32ms
+[2017.07.22-04.09.25:247][944]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PlayerSaveGameAABE6B394C8A9825BB3A0FB37A0095A5.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/PlayerSaveGame.uasset'
+[2017.07.22-04.09.25:252][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/AllLevels/PlayerSaveGame.uasset
+[2017.07.22-04.10.13:893][668]LogMetaData: Removing '/Game/Blueprints/Character/0_Base.SKEL_0_Base_C' ref from Metadata '/Game/Blueprints/Character/ThirdPersonCharacter.PackageMetaData'
+[2017.07.22-04.10.13:893][668]LogMetaData: Removing '/Game/Blueprints/Character/0_Base.0_Base_C' ref from Metadata '/Game/Blueprints/Character/ThirdPersonCharacter.PackageMetaData'
+[2017.07.22-04.10.13:924][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/0_Base" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset" SILENT=true
+[2017.07.22-04.10.14:058][668]LogSavePackage: Save=130.70ms
+[2017.07.22-04.10.14:058][668]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseF1EA5BAD493E23250466E58494B4E7D1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset'
+[2017.07.22-04.10.14:062][668]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset
+[2017.07.22-04.10.20:242][928]LogSlate: Took 0.015021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.22-04.10.20:634][928]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.07.22-04.10.22:532][928]LogSlate: Took 0.015228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.22-04.10.23:189][929]LogSlate: Took 0.013508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.22-04.11.02:658][667]LogTexture:Display: Building textures: T_CharM_Base_D (DXT1, 1024X1024)
+[2017.07.22-04.11.03:093][667]LogTexture:Display: Building textures: T_CharM_Base_M (AutoDXT, 1024X1024)
+[2017.07.22-04.11.03:250][667]LogTexture:Display: Building textures: T_CharM_Base_N (BC5, 1024X1024)
+[2017.07.22-04.11.03:386][667]LogMaterial: Missing cached shader map for material M_CharM_Base, compiling. 
+[2017.07.22-04.11.03:927][667]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.07.22-04.11.03:927][667]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.07.22-04.11.07:702][848]BlueprintLog: New page: Compile 0_Base
+[2017.07.22-04.11.09:415][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/0_Base" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset" SILENT=true
+[2017.07.22-04.11.09:546][916]LogSavePackage: Save=91.94ms
+[2017.07.22-04.11.09:546][916]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseD4AC1089425AECC69B5FB5AFF923BCB1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset'
+[2017.07.22-04.11.09:568][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset
+[2017.07.22-04.11.49:276][ 36]LogRenderer: Reallocating scene render targets to support 1164x940 NumSamples 1 (Frame:1263).
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.Barbarous:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.SKEL_Barbarous_C' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.Barbarous_C' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.Barbarous:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.Barbarous:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:488][381]LogMetaData: Removing '/Game/Blueprints/Character/Barbarous.Barbarous:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/Barbaros.PackageMetaData'
+[2017.07.22-04.12.29:559][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Barbarous" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset" SILENT=true
+[2017.07.22-04.12.29:597][381]LogSavePackage: Save=34.79ms
+[2017.07.22-04.12.29:597][381]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Barbarous4566C73049EE2E78DB7D57A2F4CDF2DD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset'
+[2017.07.22-04.12.29:601][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset
+[2017.07.22-04.14.35:448][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Forge" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset" SILENT=true
+[2017.07.22-04.14.35:480][203]LogSavePackage: Save=29.40ms
+[2017.07.22-04.14.35:480][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Forge5B8BB3E34B739D0A81EA7FB79C723644.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset'
+[2017.07.22-04.14.35:484][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset
+[2017.07.22-04.14.35:500][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Frosty" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset" SILENT=true
+[2017.07.22-04.14.35:531][203]LogSavePackage: Save=27.95ms
+[2017.07.22-04.14.35:531][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/FrostyC4CEEC8549780C07398879B6CD758677.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset'
+[2017.07.22-04.14.35:535][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset
+[2017.07.22-04.14.35:555][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Natural" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset" SILENT=true
+[2017.07.22-04.14.35:586][203]LogSavePackage: Save=28.33ms
+[2017.07.22-04.14.35:586][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Natural2296EFF249879B56146C4F904CBC3DDC.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset'
+[2017.07.22-04.14.35:589][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset
+[2017.07.22-04.14.35:600][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Pit" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset" SILENT=true
+[2017.07.22-04.14.35:629][203]LogSavePackage: Save=27.01ms
+[2017.07.22-04.14.35:629][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PitBC3AA2F647515A63976B4A8711725220.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset'
+[2017.07.22-04.14.35:634][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset
+[2017.07.22-04.14.35:643][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Robo" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset" SILENT=true
+[2017.07.22-04.14.35:674][203]LogSavePackage: Save=27.80ms
+[2017.07.22-04.14.35:674][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/RoboB578092D434E71B52A39D49A9FCB18F7.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset'
+[2017.07.22-04.14.35:678][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset
+[2017.07.22-04.14.35:692][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Tusk" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset" SILENT=true
+[2017.07.22-04.14.35:723][203]LogSavePackage: Save=27.39ms
+[2017.07.22-04.14.35:723][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Tusk4CC16F594682E596D91285A8C6ED0F5F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset'
+[2017.07.22-04.14.35:727][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset
+[2017.07.22-04.14.35:746][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Warrior" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset" SILENT=true
+[2017.07.22-04.14.35:778][203]LogSavePackage: Save=28.50ms
+[2017.07.22-04.14.35:778][203]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/WarriorEC02D9474CBF9CF0A5ACF5BAF3F33CA2.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset'
+[2017.07.22-04.14.35:782][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset
+[2017.07.22-04.14.51:996][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.22-04.16.14:732][925]LogMetaData: Removing '/Game/Blueprints/GamePlay/GM_GamePlay.GM_GamePlay:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/GamePlay/NewBlueprint.PackageMetaData'
+[2017.07.22-04.16.14:732][925]LogMetaData: Removing '/Game/Blueprints/GamePlay/GM_GamePlay.SKEL_GM_GamePlay_C' ref from Metadata '/Game/Blueprints/GamePlay/NewBlueprint.PackageMetaData'
+[2017.07.22-04.16.14:732][925]LogMetaData: Removing '/Game/Blueprints/GamePlay/GM_GamePlay.GM_GamePlay_C' ref from Metadata '/Game/Blueprints/GamePlay/NewBlueprint.PackageMetaData'
+[2017.07.22-04.16.14:732][925]LogMetaData: Removing '/Game/Blueprints/GamePlay/GM_GamePlay.GM_GamePlay:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/GamePlay/NewBlueprint.PackageMetaData'
+[2017.07.22-04.16.14:732][925]LogMetaData: Removing '/Game/Blueprints/GamePlay/GM_GamePlay.GM_GamePlay:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/GamePlay/NewBlueprint.PackageMetaData'
+[2017.07.22-04.16.14:750][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GamePlay/GM_GamePlay" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/GM_GamePlay.uasset" SILENT=true
+[2017.07.22-04.16.14:769][925]LogSavePackage: Save=16.30ms
+[2017.07.22-04.16.14:769][925]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/GM_GamePlay53048ABD4EDCE601873ABDBA174D37DE.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/GM_GamePlay.uasset'
+[2017.07.22-04.16.14:775][925]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/GM_GamePlay.uasset
+[2017.07.22-04.17.16:917][452]LogMetaData: Removing '/Game/Blueprints/GamePlay/PC_GamePlay.PC_GamePlay:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/GamePlay/PC_PlayerControl.PackageMetaData'
+[2017.07.22-04.17.16:917][452]LogMetaData: Removing '/Game/Blueprints/GamePlay/PC_GamePlay.SKEL_PC_GamePlay_C' ref from Metadata '/Game/Blueprints/GamePlay/PC_PlayerControl.PackageMetaData'
+[2017.07.22-04.17.16:917][452]LogMetaData: Removing '/Game/Blueprints/GamePlay/PC_GamePlay.PC_GamePlay_C' ref from Metadata '/Game/Blueprints/GamePlay/PC_PlayerControl.PackageMetaData'
+[2017.07.22-04.17.16:917][452]LogMetaData: Removing '/Game/Blueprints/GamePlay/PC_GamePlay.PC_GamePlay:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/GamePlay/PC_PlayerControl.PackageMetaData'
+[2017.07.22-04.17.16:917][452]LogMetaData: Removing '/Game/Blueprints/GamePlay/PC_GamePlay.PC_GamePlay:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/GamePlay/PC_PlayerControl.PackageMetaData'
+[2017.07.22-04.17.16:936][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GamePlay/PC_GamePlay" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/PC_GamePlay.uasset" SILENT=true
+[2017.07.22-04.17.16:960][452]LogSavePackage: Save=21.51ms
+[2017.07.22-04.17.16:960][452]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PC_GamePlayF1042F4E44E5FA745AE490A2589F8E89.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/PC_GamePlay.uasset'
+[2017.07.22-04.17.16:974][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/GamePlay/PC_GamePlay.uasset
+[2017.07.22-04.17.37:024][658]LogMetaData: Removing '/Game/Blueprints/Lobby/GM_Lobby.SKEL_GM_Lobby_C' ref from Metadata '/Game/Blueprints/Lobby/GM_GamePlay.PackageMetaData'
+[2017.07.22-04.17.37:024][658]LogMetaData: Removing '/Game/Blueprints/Lobby/GM_Lobby.GM_Lobby_C' ref from Metadata '/Game/Blueprints/Lobby/GM_GamePlay.PackageMetaData'
+[2017.07.22-04.17.37:042][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/GM_Lobby" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/GM_Lobby.uasset" SILENT=true
+[2017.07.22-04.17.37:058][658]LogSavePackage: Save=13.53ms
+[2017.07.22-04.17.37:058][658]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/GM_Lobby9613C0D74D9B48FE9D696DADADFEF7B6.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/GM_Lobby.uasset'
+[2017.07.22-04.17.37:063][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/GM_Lobby.uasset
+[2017.07.22-04.17.49:187][ 27]LogMetaData: Removing '/Game/Blueprints/Lobby/PC_Lobby.SKEL_PC_Lobby_C' ref from Metadata '/Game/Blueprints/Lobby/PC_GamePlay.PackageMetaData'
+[2017.07.22-04.17.49:187][ 27]LogMetaData: Removing '/Game/Blueprints/Lobby/PC_Lobby.PC_Lobby_C' ref from Metadata '/Game/Blueprints/Lobby/PC_GamePlay.PackageMetaData'
+[2017.07.22-04.17.49:204][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/PC_Lobby" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/PC_Lobby.uasset" SILENT=true
+[2017.07.22-04.17.49:222][ 27]LogSavePackage: Save=14.85ms
+[2017.07.22-04.17.49:222][ 27]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PC_Lobby8525991A4D6BC9F9D1C7D6A038E84703.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/PC_Lobby.uasset'
+[2017.07.22-04.17.49:227][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Lobby/PC_Lobby.uasset
+[2017.07.22-04.19.56:730][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.22-04.19.58:383][531]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.07.22-04.19.59:873][647]Cmd: DELETE
+[2017.07.22-04.19.59:873][647]Cmd: ACTOR DELETE
+[2017.07.22-04.20.00:019][647]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2017.07.22-04.20.00:095][647]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2017.07.22-04.20.01:792][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.22-04.20.02:484][899]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.07.22-04.20.34:198][336]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.07.22-04.20.39:694][697]LogSavePackage: Save=234.68ms
+[2017.07.22-04.20.39:694][697]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonExampleMap_Auto2311781584D595768E24398817E281882.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.07.22-04.20.39:697][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.07.22-04.20.39:705][697]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.306
+[2017.07.22-04.20.39:705][697]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2017.07.22-04.22.16:776][604]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.17:780][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.18:653][774]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.20:091][921]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.22:148][143]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart2)
+[2017.07.22-04.22.23:572][293]LogEditorViewport: Clicking on Actor (CTRL LMB): PlayerStart (NetworkPlayerStart3)
+[2017.07.22-04.22.29:960][ 14]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.29:960][ 14]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.32:025][247]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.32:025][247]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.34:037][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.34:037][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.35:612][644]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.35:612][644]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.37:344][836]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.07.22-04.22.39:197][ 35]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.22.56:658][847]LogEditorViewport: Clicking on Actor (CTRL LMB): PlayerStart (NetworkPlayerStart2)
+[2017.07.22-04.22.57:654][952]LogEditorViewport: Clicking on Actor (CTRL LMB): PlayerStart (NetworkPlayerStart3)
+[2017.07.22-04.23.04:156][594]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.04:156][594]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.04:157][594]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.19:857][301]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.19:867][301]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.19:868][301]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.24:786][795]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.24:786][795]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.23.24:786][795]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.24.18:561][804]LogSavePackage: Save=193.56ms
+[2017.07.22-04.24.18:561][804]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonExampleMapC4B3462E4D485FB8114026BB8F8A0880.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.07.22-04.24.18:571][804]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.07.22-04.24.18:601][804]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.370
+[2017.07.22-04.24.40:378][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.22-04.24.42:185][106]Cmd: TRANSACTION UNDO
+[2017.07.22-04.24.42:185][106]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.22-04.24.45:661][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.22-04.24.46:005][511]Cmd: TRANSACTION UNDO
+[2017.07.22-04.24.46:005][511]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.22-04.24.53:847][390]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.24.53:847][390]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.24.53:847][390]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.22-04.25.59:415][269]LogAIModule: Creating AISystem for world Arena01
+[2017.07.22-04.25.59:425][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena01" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.25.59:659][269]LogSavePackage: Save=197.07ms
+[2017.07.22-04.25.59:659][269]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Arena012D7DB80C46CE59D6AEB7E8AEF8F6E2CD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01.umap'
+[2017.07.22-04.25.59:663][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01.umap
+[2017.07.22-04.25.59:668][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena01_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01_BuiltData.uasset" SILENT=true
+[2017.07.22-04.25.59:811][269]LogSavePackage: Save=140.22ms
+[2017.07.22-04.25.59:811][269]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Arena01_BuiltData6C18E7764DCE8B685954FD950E608AE3.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01_BuiltData.uasset'
+[2017.07.22-04.25.59:813][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01_BuiltData.uasset
+[2017.07.22-04.25.59:819][269]LogFileHelpers: Saving map 'Arena01' took 1.231
+[2017.07.22-04.25.59:820][269]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.25.59:830][269]LightingResults: New page: Lighting Build
+[2017.07.22-04.25.59:830][269]LoadErrors: New page: Loading map: Arena01.umap
+[2017.07.22-04.25.59:838][269]MapCheck: New page: Map Check
+[2017.07.22-04.25.59:838][269]LightingResults: New page: Lighting Build
+[2017.07.22-04.25.59:891][269]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.25.59:950][269]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.26.00:041][269]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.518ms to complete.
+[2017.07.22-04.26.00:041][269]LogFileHelpers: Loading map 'Arena01' took 0.222
+[2017.07.22-04.26.40:725][441]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.07.22-04.27.14:732][114]LogAIModule: Creating AISystem for world Arena02
+[2017.07.22-04.27.14:742][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.27.14:973][114]LogSavePackage: Save=199.42ms
+[2017.07.22-04.27.14:973][114]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Arena0247B50D934ADF8B8C701DDDB538F7632F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap'
+[2017.07.22-04.27.14:977][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap
+[2017.07.22-04.27.14:983][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02_BuiltData.uasset" SILENT=true
+[2017.07.22-04.27.15:125][114]LogSavePackage: Save=139.86ms
+[2017.07.22-04.27.15:125][114]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Arena02_BuiltData29811DF14E6FCCEE8A7C40A435F9F7BD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02_BuiltData.uasset'
+[2017.07.22-04.27.15:127][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02_BuiltData.uasset
+[2017.07.22-04.27.15:132][114]LogFileHelpers: Saving map 'Arena02' took 1.059
+[2017.07.22-04.27.15:134][114]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.27.15:144][114]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.15:144][114]LoadErrors: New page: Loading map: Arena02.umap
+[2017.07.22-04.27.15:145][114]MapCheck: New page: Map Check
+[2017.07.22-04.27.15:145][114]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.15:182][114]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.27.15:249][114]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.27.15:338][114]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.079ms to complete.
+[2017.07.22-04.27.15:338][114]LogFileHelpers: Loading map 'Arena02' took 0.205
+[2017.07.22-04.27.20:818][714]LogAIModule: Creating AISystem for world Arena01
+[2017.07.22-04.27.22:972][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena02" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.27.23:222][714]LogSavePackage: Save=203.06ms
+[2017.07.22-04.27.23:222][714]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Arena0229B164974767A3B34998998210ACEDF3.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap'
+[2017.07.22-04.27.23:227][714]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap
+[2017.07.22-04.27.23:258][714]LogFileHelpers: Saving map 'Arena02' took 0.378
+[2017.07.22-04.27.23:259][714]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.27.23:259][714]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.23:260][714]LoadErrors: New page: Loading map: Arena01.umap
+[2017.07.22-04.27.23:261][714]MapCheck: New page: Map Check
+[2017.07.22-04.27.23:261][714]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.23:299][714]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.27.23:365][714]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.27.23:456][714]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.385ms to complete.
+[2017.07.22-04.27.23:456][714]LogFileHelpers: Loading map 'Arena01' took 0.197
+[2017.07.22-04.27.29:999][130]LogAIModule: Creating AISystem for world Arena02
+[2017.07.22-04.27.30:048][130]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Arena02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.27.30:048][130]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.30:048][130]LoadErrors: New page: Loading map: Arena02.umap
+[2017.07.22-04.27.30:049][130]MapCheck: New page: Map Check
+[2017.07.22-04.27.30:049][130]LightingResults: New page: Lighting Build
+[2017.07.22-04.27.30:085][130]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.27.30:142][130]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.27.30:233][130]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.19ms to complete.
+[2017.07.22-04.27.30:234][130]LogFileHelpers: Loading map 'Arena02' took 0.187
+[2017.07.22-04.28.28:689][  6]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.28.28:703][  6]LightingResults: New page: Lighting Build
+[2017.07.22-04.28.28:704][  6]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.07.22-04.28.28:705][  6]MapCheck: New page: Map Check
+[2017.07.22-04.28.28:705][  6]LightingResults: New page: Lighting Build
+[2017.07.22-04.28.28:750][  6]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.22-04.28.28:766][  6]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.22-04.28.28:769][  6]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.28.28:809][  6]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.28.30:741][  6]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,932.153ms to complete.
+[2017.07.22-04.28.30:741][  6]LogFileHelpers: Loading map 'Template_Default' took 2.054
+[2017.07.22-04.28.46:477][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.28.46:558][268]LogSavePackage: Save=45.45ms
+[2017.07.22-04.28.46:558][268]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Lobby6089C1FA450A112A3CA0058FBE46A1E0.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Lobby.umap'
+[2017.07.22-04.28.46:572][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/Lobby.umap
+[2017.07.22-04.28.46:612][268]LogFileHelpers: Saving map 'Lobby' took 1.037
+[2017.07.22-04.28.53:595][891]LightingResults: New page: Lighting Build
+[2017.07.22-04.28.53:596][891]MapCheck: New page: Map Check
+[2017.07.22-04.28.53:596][891]LightingResults: New page: Lighting Build
+[2017.07.22-04.28.53:632][891]LogAIModule: Creating AISystem for world Untitled
+[2017.07.22-04.28.53:635][891]LoadErrors: New page: New Map
+[2017.07.22-04.29.00:384][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TravelMap" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/TravelMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.29.00:427][126]LogSavePackage: Save=12.16ms
+[2017.07.22-04.29.00:427][126]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/TravelMap5CBC3BF54A06AB5331232A9AD7D9C50C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/TravelMap.umap'
+[2017.07.22-04.29.00:430][126]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/TravelMap.umap
+[2017.07.22-04.29.00:466][126]LogFileHelpers: Saving map 'TravelMap' took 0.192
+[2017.07.22-04.29.18:918][820]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.22-04.29.18:921][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.22-04.29.18:964][820]LogSavePackage: Save=12.56ms
+[2017.07.22-04.29.18:964][820]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/MainMenu97C3B60147A348D5DC4C56889A012269.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/MainMenu.umap'
+[2017.07.22-04.29.18:971][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/MainMenu.umap
+[2017.07.22-04.29.18:977][820]LogFileHelpers: Saving map 'MainMenu' took 0.186
+[2017.07.22-04.29.18:979][820]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.22-04.29.18:989][820]LightingResults: New page: Lighting Build
+[2017.07.22-04.29.18:990][820]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.07.22-04.29.18:990][820]MapCheck: New page: Map Check
+[2017.07.22-04.29.18:990][820]LightingResults: New page: Lighting Build
+[2017.07.22-04.29.19:022][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.22-04.29.19:132][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.22-04.29.19:226][820]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.504ms to complete.
+[2017.07.22-04.29.19:227][820]LogFileHelpers: Loading map 'MainMenu' took 0.249
+[2017.07.22-04.30.19:045][  8]LogLinker: Can't find file '/Game/UI/AllLevels/ChatText'
+[2017.07.22-04.30.19:045][  8]LogLinker: Can't find file '/Game/UI/AllLevels/ChatText'
+[2017.07.22-04.30.32:890][646]LogLinker: Can't find file '/Game/UI/AllLevels/ChatWindow'
+[2017.07.22-04.30.32:890][646]LogLinker: Can't find file '/Game/UI/AllLevels/ChatWindow'
+[2017.07.22-04.30.44:914][ 63]LogLinker: Can't find file '/Game/UI/AllLevels/GamePlayChat'
+[2017.07.22-04.30.44:915][ 63]LogLinker: Can't find file '/Game/UI/AllLevels/GamePlayChat'
+[2017.07.22-04.30.59:195][436]LogLinker: Can't find file '/Game/UI/AllLevels/LoadingScreen'
+[2017.07.22-04.30.59:195][436]LogLinker: Can't find file '/Game/UI/AllLevels/LoadingScreen'
+[2017.07.22-04.31.15:450][319]LogLinker: Can't find file '/Game/UI/Lobby/CharacterSelect'
+[2017.07.22-04.31.15:450][319]LogLinker: Can't find file '/Game/UI/Lobby/CharacterSelect'
+[2017.07.22-04.31.26:331][613]LogLinker: Can't find file '/Game/UI/Lobby/ConnectedPlayer'
+[2017.07.22-04.31.26:331][613]LogLinker: Can't find file '/Game/UI/Lobby/ConnectedPlayer'
+[2017.07.22-04.31.42:522][ 98]LogLinker: Can't find file '/Game/UI/Lobby/GameSettings'
+[2017.07.22-04.31.42:522][ 98]LogLinker: Can't find file '/Game/UI/Lobby/GameSettings'
+[2017.07.22-04.32.00:160][556]LogLinker: Can't find file '/Game/UI/Lobby/LobbyMenu'
+[2017.07.22-04.32.00:160][556]LogLinker: Can't find file '/Game/UI/Lobby/LobbyMenu'
+[2017.07.22-04.32.23:339][898]LogLinker: Can't find file '/Game/UI/Lobby/PlayerButton'
+[2017.07.22-04.32.23:339][898]LogLinker: Can't find file '/Game/UI/Lobby/PlayerButton'
+[2017.07.22-04.32.34:041][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/ChatText" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatText.uasset" SILENT=true
+[2017.07.22-04.32.34:068][248]LogSavePackage: Save=23.56ms
+[2017.07.22-04.32.34:068][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ChatTextFA3FFAAF412B6F91B513A3B845342BB6.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatText.uasset'
+[2017.07.22-04.32.34:073][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatText.uasset
+[2017.07.22-04.32.34:077][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/ChatWindow" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatWindow.uasset" SILENT=true
+[2017.07.22-04.32.34:093][248]LogSavePackage: Save=14.19ms
+[2017.07.22-04.32.34:094][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ChatWindow45B9AA594B15DCAE398137A582C1FDCC.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatWindow.uasset'
+[2017.07.22-04.32.34:097][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/ChatWindow.uasset
+[2017.07.22-04.32.34:101][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/GamePlayChat" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/GamePlayChat.uasset" SILENT=true
+[2017.07.22-04.32.34:117][248]LogSavePackage: Save=14.39ms
+[2017.07.22-04.32.34:117][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/GamePlayChat96475551477817ADFAB16DB00D72E646.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/GamePlayChat.uasset'
+[2017.07.22-04.32.34:122][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/GamePlayChat.uasset
+[2017.07.22-04.32.34:125][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/LoadingScreen" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/LoadingScreen.uasset" SILENT=true
+[2017.07.22-04.32.34:141][248]LogSavePackage: Save=13.40ms
+[2017.07.22-04.32.34:141][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/LoadingScreenC5C8665D42F383FAFFEAD6996F26F534.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/LoadingScreen.uasset'
+[2017.07.22-04.32.34:146][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/AllLevels/LoadingScreen.uasset
+[2017.07.22-04.32.34:149][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/CharacterSelect" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/CharacterSelect.uasset" SILENT=true
+[2017.07.22-04.32.34:164][248]LogSavePackage: Save=13.44ms
+[2017.07.22-04.32.34:164][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/CharacterSelect8CB984D9407EE3FC2B97D991EED5ACBC.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/CharacterSelect.uasset'
+[2017.07.22-04.32.34:168][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/CharacterSelect.uasset
+[2017.07.22-04.32.34:172][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2017.07.22-04.32.34:189][248]LogSavePackage: Save=14.60ms
+[2017.07.22-04.32.34:189][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ConnectedPlayerAE46606345DA81CD2319C0A688661C42.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2017.07.22-04.32.34:194][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/ConnectedPlayer.uasset
+[2017.07.22-04.32.34:197][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/GameSettings" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/GameSettings.uasset" SILENT=true
+[2017.07.22-04.32.34:214][248]LogSavePackage: Save=13.96ms
+[2017.07.22-04.32.34:214][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/GameSettings96F94C8046EB68717EAED9B63D3C0F7A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/GameSettings.uasset'
+[2017.07.22-04.32.34:217][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/GameSettings.uasset
+[2017.07.22-04.32.34:221][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2017.07.22-04.32.34:237][248]LogSavePackage: Save=13.33ms
+[2017.07.22-04.32.34:237][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/LobbyMenu10673DA74EB04169EF9F60BDB6571CDB.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/LobbyMenu.uasset'
+[2017.07.22-04.32.34:241][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/LobbyMenu.uasset
+[2017.07.22-04.32.34:245][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/PlayerButton" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/PlayerButton.uasset" SILENT=true
+[2017.07.22-04.32.34:261][248]LogSavePackage: Save=13.85ms
+[2017.07.22-04.32.34:261][248]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/PlayerButton66E63A444C6396A4663DE5A3EFC5DA80.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/PlayerButton.uasset'
+[2017.07.22-04.32.34:265][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/Lobby/PlayerButton.uasset
+[2017.07.22-04.32.47:477][805]LogLinker: Can't find file '/Game/UI/MainMenu/ErrorDialog'
+[2017.07.22-04.32.47:477][805]LogLinker: Can't find file '/Game/UI/MainMenu/ErrorDialog'
+[2017.07.22-04.32.57:743][ 18]LogLinker: Can't find file '/Game/UI/MainMenu/HostMenu'
+[2017.07.22-04.32.57:743][ 18]LogLinker: Can't find file '/Game/UI/MainMenu/HostMenu'
+[2017.07.22-04.33.06:768][ 76]LogLinker: Can't find file '/Game/UI/MainMenu/MainMenu'
+[2017.07.22-04.33.06:769][ 76]LogLinker: Can't find file '/Game/UI/MainMenu/MainMenu'
+[2017.07.22-04.33.16:849][262]LogLinker: Can't find file '/Game/UI/MainMenu/Options'
+[2017.07.22-04.33.16:849][262]LogLinker: Can't find file '/Game/UI/MainMenu/Options'
+[2017.07.22-04.33.25:713][297]LogLinker: Can't find file '/Game/UI/MainMenu/ServerMenu'
+[2017.07.22-04.33.25:714][297]LogLinker: Can't find file '/Game/UI/MainMenu/ServerMenu'
+[2017.07.22-04.33.43:621][ 18]LogLinker: Can't find file '/Game/UI/MainMenu/OptionsMenu'
+[2017.07.22-04.33.43:621][ 18]LogLinker: Can't find file '/Game/UI/MainMenu/OptionsMenu'
+[2017.07.22-04.33.43:739][ 18]LogMetaData: Removing '/Game/UI/MainMenu/OptionsMenu.SKEL_OptionsMenu_C' ref from Metadata '/Game/UI/MainMenu/Options.PackageMetaData'
+[2017.07.22-04.33.43:739][ 18]LogMetaData: Removing '/Game/UI/MainMenu/OptionsMenu.OptionsMenu_C' ref from Metadata '/Game/UI/MainMenu/Options.PackageMetaData'
+[2017.07.22-04.33.43:757][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionsMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/OptionsMenu.uasset" SILENT=true
+[2017.07.22-04.33.43:772][ 18]LogSavePackage: Save=13.40ms
+[2017.07.22-04.33.43:773][ 18]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/OptionsMenuD2FAA3C440EBEAD13F08C6A972C5E56C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/OptionsMenu.uasset'
+[2017.07.22-04.33.43:776][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/OptionsMenu.uasset
+[2017.07.22-04.33.52:586][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ErrorDialog" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ErrorDialog.uasset" SILENT=true
+[2017.07.22-04.33.52:602][456]LogSavePackage: Save=13.58ms
+[2017.07.22-04.33.52:602][456]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ErrorDialog20D96C70494FB7FAD2E8D287732C9CC6.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ErrorDialog.uasset'
+[2017.07.22-04.33.52:605][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ErrorDialog.uasset
+[2017.07.22-04.33.52:608][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/HostMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/HostMenu.uasset" SILENT=true
+[2017.07.22-04.33.52:626][456]LogSavePackage: Save=14.56ms
+[2017.07.22-04.33.52:626][456]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/HostMenu16B32F4D40851CD3CFB63B8A55DF60B9.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/HostMenu.uasset'
+[2017.07.22-04.33.52:630][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/HostMenu.uasset
+[2017.07.22-04.33.52:633][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/MainMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/MainMenu.uasset" SILENT=true
+[2017.07.22-04.33.52:649][456]LogSavePackage: Save=13.67ms
+[2017.07.22-04.33.52:649][456]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/MainMenu7E1A28D441ADD6EA9E5229ABA6772E47.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/MainMenu.uasset'
+[2017.07.22-04.33.52:653][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/MainMenu.uasset
+[2017.07.22-04.33.52:656][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ServerMenu" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ServerMenu.uasset" SILENT=true
+[2017.07.22-04.33.52:673][456]LogSavePackage: Save=13.75ms
+[2017.07.22-04.33.52:673][456]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ServerMenu8CB8E69042CF85CDF6CD9EAF20D99F9B.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ServerMenu.uasset'
+[2017.07.22-04.33.52:677][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/UI/MainMenu/ServerMenu.uasset
+[2017.07.22-04.34.13:331][262]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.22-04.34.13:774][265]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MultiplayerSys
+[2017.07.22-04.34.13:774][265]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.22-04.34.13:774][265]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.22-04.34.13:774][265]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.22-04.34.13:774][265]LogTemp: BranchPath = ULTIMATESKIBUM/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = ULTIMATESKIBUM/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.22-04.34.13:774][265]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Liam\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.22-04.35.09:835][872]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.22-04.39.17:287][858]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.22-04.39.17:720][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.07.22-04.39.17:904][858]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.07.22-04.39.18:462][858]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.07.22-04.39.49:977][836]LogSavePackage: Save=8.84ms
+[2017.07.22-04.39.49:977][836]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/UE4_Mannequin_SkeletonED1C682B4FD61E86B8FFE094A6DFBDA1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.07.22-04.39.49:982][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.07.22-04.40.00:269][876]LogTexture:Display: Building textures: T_CharM_Warrior_N (BC5, 2048X2048)
+[2017.07.22-04.40.01:198][876]LogTexture:Display: Building textures: T_CharM_WarriorB_D (DXT1, 2048X2048)
+[2017.07.22-04.40.03:208][876]LogTexture:Display: Building textures: T_CharM_WarriorB_Mask (AutoDXT, 2048X2048)
+[2017.07.22-04.40.03:826][876]LogTexture:Display: Building textures: T_CharM_Warrior_JewelMask (AutoDXT, 2048X2048)
+[2017.07.22-04.40.04:250][876]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.07.22-04.40.04:352][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.07.22-04.40.12:751][327]LogSavePackage: Save=18.98ms
+[2017.07.22-04.40.12:751][327]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/SK_Mannequin_SkeletonFE78829A488CB6FB9082B28A4AA6A6A0.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset'
+[2017.07.22-04.40.12:755][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset
+[2017.07.22-04.40.31:404][449]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.07.22-04.40.40:503][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.07.22-04.40.40:581][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.07.22-04.40.40:620][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.07.22-04.40.40:665][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.07.22-04.40.40:721][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.07.22-04.40.40:747][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.07.22-04.40.40:782][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2017.07.22-04.40.40:927][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2017.07.22-04.40.41:004][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2017.07.22-04.40.41:047][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2017.07.22-04.40.41:207][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2017.07.22-04.40.41:265][348]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2017.07.22-04.40.41:601][349]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:478][ 58]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.41.16:710][ 58]LogSavePackage: Save=143.26ms
+[2017.07.22-04.41.16:710][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPerson_AnimBPE120BEFA4642418477E70EAD7ACC6042.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2017.07.22-04.41.16:714][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.uasset
+[2017.07.22-04.41.16:782][ 58]LogSavePackage: Save=38.90ms
+[2017.07.22-04.41.16:782][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPerson_IdleRun_2DB3038E79460076DC26177F9C097ECCEE.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2017.07.22-04.41.16:787][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_IdleRun_2D.uasset
+[2017.07.22-04.41.16:834][ 58]LogSavePackage: Save=20.16ms
+[2017.07.22-04.41.16:834][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPerson_Jump4654AE0D4B49BBBEF025A9B0D4BFDD88.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_Jump.uasset'
+[2017.07.22-04.41.16:842][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPerson_Jump.uasset
+[2017.07.22-04.41.16:898][ 58]LogSavePackage: Save=34.08ms
+[2017.07.22-04.41.16:898][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonIdleA9F06CA440A98EFF66BB46947A720E4F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonIdle.uasset'
+[2017.07.22-04.41.16:902][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonIdle.uasset
+[2017.07.22-04.41.16:949][ 58]LogSavePackage: Save=19.47ms
+[2017.07.22-04.41.16:949][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonJump_Loop8F8AEE2A4757F719AB34C2BB8050F0FC.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonJump_Loop.uasset'
+[2017.07.22-04.41.16:953][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonJump_Loop.uasset
+[2017.07.22-04.41.16:998][ 58]LogSavePackage: Save=20.74ms
+[2017.07.22-04.41.16:998][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonJump_Start8E0153BD4F738D7C82C56480300A749A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonJump_Start.uasset'
+[2017.07.22-04.41.17:003][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonJump_Start.uasset
+[2017.07.22-04.41.17:046][ 58]LogSavePackage: Save=19.25ms
+[2017.07.22-04.41.17:046][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonRunB670893E4968401CD14F78974C4684B1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonRun.uasset'
+[2017.07.22-04.41.17:050][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonRun.uasset
+[2017.07.22-04.41.17:093][ 58]LogSavePackage: Save=19.61ms
+[2017.07.22-04.41.17:093][ 58]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/ThirdPersonWalk68DAFDEF425D0B05AA09B3AEEEB6DDDE.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonWalk.uasset'
+[2017.07.22-04.41.17:097][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/ThirdPersonWalk.uasset
+[2017.07.22-04.42.39:973][337]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/0base_AnimBP.0base_AnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.42.39:973][337]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/0base_AnimBP.SKEL_0base_AnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Character/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.07.22-04.42.40:169][337]LogSavePackage: Save=143.56ms
+[2017.07.22-04.42.40:169][337]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0base_AnimBPA352EF034EE134B3E751089DE7B7D92B.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0base_AnimBP.uasset'
+[2017.07.22-04.42.40:173][337]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0base_AnimBP.uasset
+[2017.07.22-04.43.04:820][  1]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.0_base_AnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Character/Animations/0base_AnimBP.PackageMetaData'
+[2017.07.22-04.43.04:820][  1]LogMetaData: Removing '/Game/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.SKEL_0_base_AnimBP_C' ref from Metadata '/Game/InfinityBladeWarriors/Character/Animations/0base_AnimBP.PackageMetaData'
+[2017.07.22-04.43.05:105][  1]LogSavePackage: Save=240.32ms
+[2017.07.22-04.43.05:107][  1]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBP8662FB0B469EF434CA47A89AFD34C911.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.43.05:111][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.43.13:286][907]LogSavePackage: Save=128.15ms
+[2017.07.22-04.43.13:287][907]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBPA6F54D0B411D319063502C88D544B56A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.43.13:291][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.44.03:734][108]LogSavePackage: Save=18.17ms
+[2017.07.22-04.44.03:734][108]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base_IdleRun_2D9D1186CF4004A810A127EEA68ED145E2.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset'
+[2017.07.22-04.44.03:738][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset
+[2017.07.22-04.44.04:087][108]LogSavePackage: Save=136.03ms
+[2017.07.22-04.44.04:087][108]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBP0BEE7618436B3915D70D2CB33A0D21A7.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.44.04:091][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.44.18:201][559]LogSavePackage: Save=18.89ms
+[2017.07.22-04.44.18:201][559]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base_Jump425428B949CA89DC53C98E80AB50E9A4.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_Jump.uasset'
+[2017.07.22-04.44.18:205][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_Jump.uasset
+[2017.07.22-04.44.18:568][559]LogSavePackage: Save=134.67ms
+[2017.07.22-04.44.18:568][559]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBPC007C7DD4C34EC712960F7B51F3FFD39.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.44.18:573][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.44.32:068][793]LogSavePackage: Save=148.25ms
+[2017.07.22-04.44.32:068][793]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseIdleC15BE053414C7029972A119A2CEBB195.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseIdle.uasset'
+[2017.07.22-04.44.32:072][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseIdle.uasset
+[2017.07.22-04.44.32:267][793]LogSavePackage: Save=6.63ms
+[2017.07.22-04.44.32:267][793]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base_IdleRun_2DA57DCEB1418D89BDD1D6599244D5EC4F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset'
+[2017.07.22-04.44.32:269][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset
+[2017.07.22-04.44.41:739][850]LogSavePackage: Save=19.16ms
+[2017.07.22-04.44.41:739][850]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseJump_LoopB177CBF9481901A1E3052F81769677F7.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseJump_Loop.uasset'
+[2017.07.22-04.44.41:742][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseJump_Loop.uasset
+[2017.07.22-04.44.42:072][850]LogSavePackage: Save=137.71ms
+[2017.07.22-04.44.42:072][850]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBPF9958D1641356EB7E69302B78DB6B154.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.44.42:076][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.44.56:551][323]LogSavePackage: Save=18.63ms
+[2017.07.22-04.44.56:551][323]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseJump_Start772A6F3F44AFAD178521B2AE43300DD8.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseJump_Start.uasset'
+[2017.07.22-04.44.56:555][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseJump_Start.uasset
+[2017.07.22-04.44.56:885][323]LogSavePackage: Save=129.53ms
+[2017.07.22-04.44.56:885][323]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_base_AnimBP69B48A1D4FD28E7A12B59E8286D03830.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset'
+[2017.07.22-04.44.56:890][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_base_AnimBP.uasset
+[2017.07.22-04.45.07:089][374]LogSavePackage: Save=31.57ms
+[2017.07.22-04.45.07:089][374]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseRun168FE35A4F717D1AC482959C125E9AB8.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseRun.uasset'
+[2017.07.22-04.45.07:093][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseRun.uasset
+[2017.07.22-04.45.07:281][374]LogSavePackage: Save=6.78ms
+[2017.07.22-04.45.07:281][374]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base_IdleRun_2D5F1C2AF141781A5FD849E2B9F05FFA4B.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset'
+[2017.07.22-04.45.07:283][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset
+[2017.07.22-04.45.13:628][ 23]LogSavePackage: Save=18.50ms
+[2017.07.22-04.45.13:628][ 23]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_BaseWalkD5527A0847A2836C7D923CB451335207.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseWalk.uasset'
+[2017.07.22-04.45.13:631][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_BaseWalk.uasset
+[2017.07.22-04.45.13:820][ 23]LogSavePackage: Save=6.39ms
+[2017.07.22-04.45.13:820][ 23]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base_IdleRun_2D5588FE934F227423CD82438A686A5673.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset'
+[2017.07.22-04.45.13:822][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/Animations/0_Base_IdleRun_2D.uasset
+[2017.07.22-04.45.21:160][588]LogSavePackage: Save=8.44ms
+[2017.07.22-04.45.21:160][588]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/SK_Mannequin_SkeletonD0F0D631452D2B32BB61AC9BD801B181.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset'
+[2017.07.22-04.45.21:164][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset
+[2017.07.22-04.45.21:184][588]LogSavePackage: Save=7.68ms
+[2017.07.22-04.45.21:184][588]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/UE4_Mannequin_Skeleton7172B7304874504F65FDBEB36A322097.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.07.22-04.45.21:188][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.07.22-04.47.21:714][351]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.22-04.47.25:201][728]BlueprintLog: New page: Compile 0_Base
+[2017.07.22-04.47.27:437][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/0_Base" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset" SILENT=true
+[2017.07.22-04.47.27:562][783]LogSavePackage: Save=89.22ms
+[2017.07.22-04.47.27:562][783]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/0_Base45DD46BE4E2B60B8663AA0A89E71AEBA.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset'
+[2017.07.22-04.47.27:566][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/0_Base.uasset
+[2017.07.22-04.48.00:773][758]LogTexture:Display: Building textures: T_CharM_Barbarous_MetalMask (DXT1, 2048X2048)
+[2017.07.22-04.48.01:492][758]LogTexture:Display: Building textures: T_CharM_Barbarous_N (BC5, 2048X2048)
+[2017.07.22-04.48.02:299][758]LogTexture:Display: Building textures: T_CharM_Barbarous_D (DXT1, 2048X2048)
+[2017.07.22-04.48.04:477][758]LogMaterial: Missing cached shader map for material M_Char_Barbrous, compiling. 
+[2017.07.22-04.48.08:391][ 62]BlueprintLog: New page: Compile Barbarous
+[2017.07.22-04.48.11:119][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Barbarous" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset" SILENT=true
+[2017.07.22-04.48.11:187][304]LogSavePackage: Save=34.35ms
+[2017.07.22-04.48.11:187][304]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Barbarous168149354DAD3E3E95B3808FC9AE0D66.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset'
+[2017.07.22-04.48.11:191][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Barbarous.uasset
+[2017.07.22-04.48.48:236][749]LogTexture:Display: Building textures: CharM_Forge_N (BC5, 2048X2048)
+[2017.07.22-04.48.49:139][749]LogTexture:Display: Building textures: CharM_Forge_D (DXT1, 2048X2048)
+[2017.07.22-04.48.51:068][749]LogTexture:Display: Building textures: CharM_Forge_MetalMask (AutoDXT, 2048X2048)
+[2017.07.22-04.48.51:587][749]LogMaterial: Missing cached shader map for material M_Char_Forge, compiling. 
+[2017.07.22-04.48.54:728][994]BlueprintLog: New page: Compile Forge
+[2017.07.22-04.48.55:717][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Forge" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset" SILENT=true
+[2017.07.22-04.48.55:803][ 55]LogSavePackage: Save=42.50ms
+[2017.07.22-04.48.55:804][ 55]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Forge0A39A4EC420F2F12ED6C338A62687F51.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset'
+[2017.07.22-04.48.55:809][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Forge.uasset
+[2017.07.22-04.49.01:372][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.22-04.49.04:049][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.22-04.49.13:677][576]LogTexture:Display: Building textures: T_Char_M_FrostGiant_N (BC5, 2048X2048)
+[2017.07.22-04.49.14:542][576]LogTexture:Display: Building textures: T_Char_M_FrostGiant_D (DXT1, 2048X2048)
+[2017.07.22-04.49.17:272][576]LogTexture:Display: Building textures: T_Char_M_FrostGiant_Masks (AutoDXT, 2048X2048)
+[2017.07.22-04.49.17:782][576]LogTexture:Display: Building textures: T_Char_M_FrostGiant_MaterialMask (AutoDXT, 2048X2048)
+[2017.07.22-04.49.18:214][576]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.07.22-04.49.22:913][692]BlueprintLog: New page: Compile Frosty
+[2017.07.22-04.49.23:749][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Frosty" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset" SILENT=true
+[2017.07.22-04.49.23:818][733]LogSavePackage: Save=27.77ms
+[2017.07.22-04.49.23:818][733]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/FrostyE36A62B342B79BE2D6C9C7B481E29056.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset'
+[2017.07.22-04.49.23:822][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Frosty.uasset
+[2017.07.22-04.49.37:244][839]LogTexture:Display: Building textures: T_CharM_Natural_N (AutoDXT, 2048X2048)
+[2017.07.22-04.49.39:163][839]LogTexture:Display: Building textures: T_CharM_Natural_D (DXT1, 2048X2048)
+[2017.07.22-04.49.40:841][839]LogTexture:Display: Building textures: T_CharM_Natural_Mask (AutoDXT, 2048X2048)
+[2017.07.22-04.49.41:291][839]LogMaterial: Missing cached shader map for material M_Char_Natural, compiling. 
+[2017.07.22-04.49.46:986][136]BlueprintLog: New page: Compile Natural
+[2017.07.22-04.49.48:057][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Natural" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset" SILENT=true
+[2017.07.22-04.49.48:107][184]LogSavePackage: Save=27.57ms
+[2017.07.22-04.49.48:107][184]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/NaturalC159020C4732E939F9817DAE1E924D7A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset'
+[2017.07.22-04.49.48:111][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Natural.uasset
+[2017.07.22-04.50.03:688][242]LogTexture:Display: Building textures: T_CharM_Pit_N (BC5, 2048X2048)
+[2017.07.22-04.50.04:274][242]LogTexture:Display: Building textures: T_CharM_Pit_Mask (AutoDXT, 2048X2048)
+[2017.07.22-04.50.05:075][242]LogTexture:Display: Building textures: T_CharM_Pit_D (DXT1, 2048X2048)
+[2017.07.22-04.50.07:216][242]LogMaterial: Missing cached shader map for material M_Char_Pit, compiling. 
+[2017.07.22-04.50.09:540][346]BlueprintLog: New page: Compile Pit
+[2017.07.22-04.50.10:766][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Pit" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset" SILENT=true
+[2017.07.22-04.50.10:826][397]LogSavePackage: Save=29.86ms
+[2017.07.22-04.50.10:826][397]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Pit432A911546506F7F12110E8482388C15.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset'
+[2017.07.22-04.50.10:831][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Pit.uasset
+[2017.07.22-04.50.46:915][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.025
+[2017.07.22-04.50.46:918][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Robo] ([1] browsable assets)...
+[2017.07.22-04.50.46:925][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Robo.Robo]
+[2017.07.22-04.50.46:925][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Robo]
+[2017.07.22-04.50.46:993][508]LogSavePackage: Save=27.05ms
+[2017.07.22-04.50.46:993][508]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Robo_Auto3E709E0274D8CC8EAF15DB68125281AB2.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Robo_Auto3.uasset'
+[2017.07.22-04.50.46:994][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Robo_Auto3.uasset
+[2017.07.22-04.50.46:995][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Tusk] ([1] browsable assets)...
+[2017.07.22-04.50.47:004][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Tusk.Tusk]
+[2017.07.22-04.50.47:004][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Tusk]
+[2017.07.22-04.50.47:079][508]LogSavePackage: Save=26.72ms
+[2017.07.22-04.50.47:079][508]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Tusk_Auto33EF32B974BF0B808F4E253BA89B7D3AD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Tusk_Auto3.uasset'
+[2017.07.22-04.50.47:080][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Tusk_Auto3.uasset
+[2017.07.22-04.50.47:081][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Warrior] ([1] browsable assets)...
+[2017.07.22-04.50.47:088][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Warrior.Warrior]
+[2017.07.22-04.50.47:088][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Warrior]
+[2017.07.22-04.50.47:137][508]LogSavePackage: Save=26.96ms
+[2017.07.22-04.50.47:137][508]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Warrior_Auto37C0E0E8A4C5A932A388226888E2BC259.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Warrior_Auto3.uasset'
+[2017.07.22-04.50.47:173][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Autosaves/Game/Blueprints/Character/Warrior_Auto3.uasset
+[2017.07.22-04.50.47:173][508]LogFileHelpers: Auto-saving content packages took 0.256
+[2017.07.22-04.51.41:850][672]LogTexture:Display: Building textures: T_CharM_Robo_N (BC5, 2048X2048)
+[2017.07.22-04.51.42:742][672]LogTexture:Display: Building textures: T_CharM_Robo_D (AutoDXT, 2048X2048)
+[2017.07.22-04.51.44:911][672]LogTexture:Display: Building textures: T_CharM_Robo_Mask (AutoDXT, 2048X2048)
+[2017.07.22-04.51.45:383][672]LogMaterial: Missing cached shader map for material M_Char_Robo, compiling. 
+[2017.07.22-04.51.46:218][708]BlueprintLog: New page: Compile Robo
+[2017.07.22-04.51.47:677][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Robo" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset" SILENT=true
+[2017.07.22-04.51.47:733][765]LogSavePackage: Save=48.69ms
+[2017.07.22-04.51.47:733][765]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Robo7010F2064E9989D2E3283BA508CD42ED.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset'
+[2017.07.22-04.51.47:743][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Robo.uasset
+[2017.07.22-04.52.00:586][640]LogTexture:Display: Building textures: T_CharM_Tusk_D (DXT1, 2048X2048)
+[2017.07.22-04.52.03:190][640]LogTexture:Display: Building textures: T_CharM_Tusk_E (DXT1, 1024X1024)
+[2017.07.22-04.52.03:349][640]LogTexture:Display: Building textures: T_CharM_Tusk_N (BC5, 1024X1024)
+[2017.07.22-04.52.03:548][640]LogTexture:Display: Building textures: T_CharM_Tusk_Mask (AutoDXT, 2048X2048)
+[2017.07.22-04.52.04:102][640]LogMaterial: Missing cached shader map for material M_Char_Tusk, compiling. 
+[2017.07.22-04.52.10:404][924]BlueprintLog: New page: Compile Tusk
+[2017.07.22-04.52.11:417][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Tusk" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset" SILENT=true
+[2017.07.22-04.52.11:449][967]LogSavePackage: Save=27.78ms
+[2017.07.22-04.52.11:449][967]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Tusk8BAB4A2B43ED151D8D928DB19FC39835.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset'
+[2017.07.22-04.52.11:456][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Tusk.uasset
+[2017.07.22-04.52.53:368][377]BlueprintLog: New page: Compile Warrior
+[2017.07.22-04.52.54:104][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Warrior" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset" SILENT=true
+[2017.07.22-04.52.54:140][411]LogSavePackage: Save=31.35ms
+[2017.07.22-04.52.54:140][411]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Saved/Warrior317EB5EF4B462B74A01B32874614E239.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset'
+[2017.07.22-04.52.54:144][411]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/MultiplayerSys/Content/Blueprints/Character/Warrior.uasset
