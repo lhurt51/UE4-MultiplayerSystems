@@ -37,5 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 # For my unreal projects #
-./Intermediate/
-./Saved/
+Intermediate/
+Saved/
