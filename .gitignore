@@ -39,3 +39,6 @@ Thumbs.db
 # For blueprint unreal projects #
 Intermediate/
 Saved/
+
+# For my mac icloud backups #
+*.icloud
